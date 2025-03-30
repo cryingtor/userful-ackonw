@@ -1,0 +1,27 @@
+{
+    "created_time": "2025-03-24T12:14:29Z",
+    "files": [
+        {
+            "attachment_folder": "",
+            "created_time": "2025-03-24T12:14:41Z",
+            "id": "120",
+            "modified_time": "2025-03-24T14:58:29Z",
+            "name": "dedecms.md",
+            "signature": "1396222233912888497",
+            "tags": [
+            ]
+        }
+    ],
+    "folders": [
+        {
+            "name": "dedecms"
+        },
+        {
+            "name": "phpmyadmin"
+        }
+    ],
+    "id": "129",
+    "modified_time": "2025-03-24T12:14:29Z",
+    "signature": "17446379830674279589",
+    "version": 3
+}

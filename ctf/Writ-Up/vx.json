@@ -8,6 +8,9 @@
         },
         {
             "name": "ctfshow"
+        },
+        {
+            "name": "sqli"
         }
     ],
     "id": "7",

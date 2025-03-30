@@ -71,8 +71,8 @@ var_dump("admin" == 0); // true
 
 但这里好像跑不出,看了一眼题解,发现需要使用group by和with rollup
 group by passsword会按照passwor的值排列
-with rollup 表示统计
+with rollup 表示统计,当对未使用聚合函数的列进行统计时就会统计为null
 
-select password,count(*)group by passsword with rollup 这样查询到的password值会多出一行null
+select password,count(*)group by passsword with rollup 这样查询到的password值会多出一行null,但是count(*)会正常统计
 a'/**/or/**/1=1/**/group/**/by/**/password/**/with/**/rollup#
 ![](vx_images/513872852629029.png)
