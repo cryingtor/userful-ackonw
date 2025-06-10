@@ -125,5 +125,3 @@ public static $goto_whitelist = array(
 这里mbstrpos将取得sql.php后的?位置,导致取得的$_page为sql.php,满足条件成功让函数返回ture,回到include处,成功绕过所有条件,完成include函数的执行
 这里也可以将?进行两次url编码,绕过下面的.
 
-这里有个疑惑传include函数最终执行的是include('sql.php?../../../etc/passwd')将直接包含passwd,问AI原因:
-
