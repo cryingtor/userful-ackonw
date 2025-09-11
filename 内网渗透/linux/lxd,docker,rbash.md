@@ -40,6 +40,9 @@ vi
 :set shell=/bin/bash
 :shell   # 获得完整 bash
 
+或
+
+
 # 使用 less/more
 less /etc/passwd
 ! /bin/bash   # 启动新 shell
@@ -65,6 +68,11 @@ perl -e 'exec "/bin/bash"'
 # 覆盖 SHELL 变量（某些实现有效）
 export SHELL=/bin/bash
 bash
+
+
+# 通过环境变量带入命令
+ENV_CMD="/bin/bash" 
+$ENV_CMD
 ```
 6. ​符号链接与文件操作
 ```

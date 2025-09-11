@@ -1,0 +1,8 @@
+创建虚拟环境
+python3 -m venv .test
+
+激活虚拟环境
+source .test/bin/activate
+
+退出虚拟环境
+(.venv) deactivate 

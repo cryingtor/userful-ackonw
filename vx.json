@@ -1,16 +1,6 @@
 {
     "created_time": "2025-03-14T06:52:18Z",
     "files": [
-        {
-            "attachment_folder": "",
-            "created_time": "2025-04-09T08:48:37Z",
-            "id": "261",
-            "modified_time": "2025-04-09T08:48:37Z",
-            "name": "SQL注入绕过.docx",
-            "signature": "13291920637417632869",
-            "tags": [
-            ]
-        }
     ],
     "folders": [
         {
@@ -26,37 +16,16 @@
             "name": "CMS练习"
         },
         {
-            "name": "JS"
-        },
-        {
             "name": "内网渗透"
         },
         {
-            "name": "逆向"
-        },
-        {
-            "name": "CVE"
+            "name": "CVE_CNVD"
         },
         {
             "name": "服务攻防"
         },
         {
-            "name": "信息泄露"
-        },
-        {
-            "name": "node.js"
-        },
-        {
-            "name": "安全设备"
-        },
-        {
             "name": "ctf比赛"
-        },
-        {
-            "name": "SRC"
-        },
-        {
-            "name": "API攻防"
         },
         {
             "name": "漏扫"
@@ -68,10 +37,22 @@
             "name": "权限提升"
         },
         {
-            "name": "SRC学习"
+            "name": "攻击手法收集"
+        },
+        {
+            "name": "BP靶场"
+        },
+        {
+            "name": "PTE集训"
+        },
+        {
+            "name": "代码审计"
+        },
+        {
+            "name": "不常见的东西"
         }
     ],
-    "id": "779",
+    "id": "1320",
     "modified_time": "2025-03-14T06:52:18Z",
     "signature": "12887106389080789538",
     "version": 3

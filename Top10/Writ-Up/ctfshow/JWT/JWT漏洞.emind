@@ -1,0 +1,1 @@
+{"nodeData":{"id":"851696b6d8ce9660","topic":"jwt","root":true,"children":[{"topic":"签名算法未校验正确性","id":"8516992848361811","direction":0},{"topic":"密钥设置弱口令,构造恶意JWT","id":"851699884388efc6","direction":1},{"topic":"JWT攻防文章:xz.aliyun.com/news/12352","id":"8519bb65c61e32fb"}]},"linkData":{},"direction":1}

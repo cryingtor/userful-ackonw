@@ -1,0 +1,2 @@
+# 外带SSRF
+在referer写上collaborator生成的域名

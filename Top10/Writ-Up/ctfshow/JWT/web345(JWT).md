@@ -1,8 +1,9 @@
 # web345(JWT)
-f12提示访问/admin,(注:/admin为访问admin.php,/admin/为访问admin目录下的文件)
+本题考点:jwt的签名算法未校验正确与否
+f12提示访问/admin/,(注:/admin为访问admin.php,/admin/为访问admin目录下的文件)
 抓一下本页面的包
-![](vx_images/151353501073928.png)
-cookiebase64解码
+![](vx_images/106745580348010.png)
+cookie
 ```
-{"alg":"None","typ":"jwt"}[{"iss":"admin","iat":1744986579,"exp":1744993779,"nbf":1744986579,"sub":"user","jti":"c991a3f232f067da72ccd918fc11e88b"}]
+eyJhbGciOiJocyIsInR5cCI6Imp3dCJ9.W3siaXNzIjoiYWRtaW4iLCJpYXQiOjE3NTE0Mzc1MDksImV4cCI6MTc1MTQ0NDcwOSwibmJmIjoxNzUxNDM3NTA5LCJzdWIiOiJhZG1pbiIsImp0aSI6ImQ3YTAwYTYzMWVmYzc0NDk4NDI5OGQyN2ExYzE4Yzc2In1d
 ```
