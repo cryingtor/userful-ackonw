@@ -10,7 +10,7 @@
             "name": "windows提权"
         },
         {
-            "name": "linux"
+            "name": "linux提权"
         },
         {
             "name": "vulnhub"
@@ -50,9 +50,12 @@
         },
         {
             "name": "vulnyx"
+        },
+        {
+            "name": "容器逃逸"
         }
     ],
-    "id": "1302",
+    "id": "1346",
     "modified_time": "2025-03-28T00:16:56Z",
     "signature": "18117445909211376248",
     "version": 3

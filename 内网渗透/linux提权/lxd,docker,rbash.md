@@ -1,5 +1,19 @@
 # lxd,docker,rbash
 
+检测方法:
+检查硬件信息​（需要 root）
+```
+dmidecode -t system 2>/dev/null | grep -E 'Manufacturer|Product'
+```
+检查特定文件
+```
+# Docker 容器
+ls /.dockerenv  # 存在则一定是 Docker 容器
+
+# LXC 容器
+ls /dev/lxc/    # 存在则一定是 LXC 容器
+```
+使用linpeas.sh脚本
 # lxd容器
 提权条件:
 以获得shell

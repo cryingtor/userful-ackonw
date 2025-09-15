@@ -30,13 +30,17 @@ sudo和suid提权都没甚么能利用的
 想到还有mysql服务,可以尝试一下
 root/root直接进了
 想过udf提权,但是没有权限写文件
+只能读取个管理员密码
+反正找一下用户目录发现文件
+![](vx_images/531093539443311.png)
+刚好有这个用户,切换用户gbodja
+sudo提权
+![](vx_images/240235407259195.png)
+git提权
+```
+sudo git -p help config
 
-
-
-
-直接放lineas.sh跑一下
-![](vx_images/116064200768094.png)
-
-
-
-
+!/bin/sh
+```
+![](vx_images/163204244462070.png)
+HMV{Y4NV!7Ch3N1N_Y0u_4r3_7h3_R007_8672}
