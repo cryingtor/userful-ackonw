@@ -5,7 +5,7 @@
             "attachment_folder": "",
             "created_time": "2025-04-06T14:03:13Z",
             "id": "250",
-            "modified_time": "2025-04-10T11:35:57Z",
+            "modified_time": "2025-10-13T09:53:21Z",
             "name": "CVE-2020-1938(Apache tomacat AJP-RCE).md",
             "signature": "8326789167358052769",
             "tags": [
@@ -20,11 +20,31 @@
             "signature": "3290925530178325567",
             "tags": [
             ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2025-10-13T14:51:52Z",
+            "id": "1366",
+            "modified_time": "2025-10-13T14:53:08Z",
+            "name": "CVE-2017-12615.md",
+            "signature": "10481272598454669832",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2025-10-13T14:54:51Z",
+            "id": "1368",
+            "modified_time": "2025-10-13T14:55:21Z",
+            "name": "CVE-2025-24813.md",
+            "signature": "2521423671716549307",
+            "tags": [
+            ]
         }
     ],
     "folders": [
     ],
-    "id": "1126",
+    "id": "1367",
     "modified_time": "2025-04-10T11:19:08Z",
     "signature": "12383443137718626604",
     "version": 3

@@ -1,4 +1,11 @@
 # docke逃逸
+使用脚本:cdk_linux_amd64
+
+判断是否为容器环境
+```
+ls -al /.dockerenv
+```
+
 1. 特权模式容器逃逸 (Privileged Mode Escape)​​
 这是最经典且高效的逃逸方式。当容器以 --privileged 标志运行时，容器内的 root 用户几乎拥有宿主机 root 的权限。
 检测方法：

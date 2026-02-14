@@ -1,0 +1,2 @@
+# call_user_func_array
+回调的函数还需要能接收那么多参数,system只接受第一个参数

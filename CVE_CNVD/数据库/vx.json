@@ -11,6 +11,9 @@
         },
         {
             "name": "mssql"
+        },
+        {
+            "name": "phpmyadmin"
         }
     ],
     "id": "1100",

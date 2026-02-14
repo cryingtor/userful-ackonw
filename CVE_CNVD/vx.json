@@ -38,6 +38,9 @@
         },
         {
             "name": "clash"
+        },
+        {
+            "name": "OpenSSH"
         }
     ],
     "id": "1256",

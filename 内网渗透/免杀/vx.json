@@ -53,6 +53,9 @@
         }
     ],
     "folders": [
+        {
+            "name": "webshell免杀"
+        }
     ],
     "id": "1065",
     "modified_time": "2025-07-26T13:54:13Z",
